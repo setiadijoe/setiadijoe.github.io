@@ -1,8 +1,112 @@
 *{
 	font-family: Helvetica, Georgia;
+	margin: 0px;
+  	padding: 0px;
 }
 
 p{
 	font-size: 14px
 	color: #456adc;
+}
+
+#article-list{
+  font-family: Georgia;
+  font-size: 14px;
+  background-color: white;
+  margin: 64px 264px;
+  position: relative;
+  text-align: justify;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+header{
+  background-color: #fff;
+  background-position: center;
+  top: 0px;
+  left: 0px;
+  background-attachment: fixed;
+}
+
+img{
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+ul {
+  margin: 10px auto;
+  text-align: right;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 1px 20px;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: Helvetica, sans-serif;
+  font-size: 45px;
+  text-align:center;
+}
+
+
+h3 {
+  color: #466995;
+  font-family: Georgia, sans-serif;
+  font-size: 18px;
+  text-align:left;
+  font-weight: 700;
+}
+
+p {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+
+body{
+  padding: 0;
+  margin-top: 64px;
+  background: #f7f7f7;
+  background-image: url('https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/19961120_1215728815222021_209000205097123740_n.jpg?oh=d0fd1e4ee30346822bb7a6916d36a246&oe=59C3A592');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.navigation {
+  background-color: #FFF;
+  position: fixed;
+  left: 0;
+  top: 0;
+  float: right;
+  width: 100%;
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  min-width: 100px;
+  height: 32px;
+  float: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 16px;
+  
 }
