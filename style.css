@@ -54,6 +54,26 @@ ul {
   margin: 10px auto;
   text-align: center;
 }
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+
+}
+
+header #branding{
+  float: left;
+  margin: 0;
+}
 
 .listhead {
   color: #14213D;
@@ -70,6 +90,14 @@ li:hover {
   color: #DBE9EE;
 }
 
+#contact .social{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 0 5px;
+
+}
+
 h1 {
   color: #466995;
   font-family: Helvetica, sans-serif;
@@ -77,6 +105,13 @@ h1 {
   text-align:center;
 }
 
+#showcase{
+  min-height: 400px;
+  background: url('img/developer.jpg') no-repeat 0 -400px;
+  background-size: 100%;
+  text-align: center;
+  color: #ffffff;
+}
 
 h3 {
   color: #466995;
