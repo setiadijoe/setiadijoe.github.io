@@ -4,28 +4,45 @@
   	padding: 0px;
 }
 
-p{
-	font-size: 14px
-	color: #456adc;
+.para{
+	font-size: 20px;
+	color: #420045;
+	background-color: rgba(130, 80, 220, 0.8);
+	margin: 64px 80px;
+	text-align: justify;
 }
 
-#article-list{
-  font-family: Georgia;
-  font-size: 14px;
-  background-color: white;
-  margin: 64px 264px;
-  position: relative;
-  text-align: justify;
-  line-height: 32px;
-  margin-top: 20px;
+.head3{
+	font-size: 48px;
+	color: orange;
+	background-color: cyan;
+	margin-left:40px;
 }
 
-header{
-  background-color: #fff;
+
+.nama{
+	padding-top: 77px;
+	background-color: rgba(220, 240, 280, 0.8);
+	padding-left: 40px;
+}
+
+.navigation {
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+  background-attachment: fixed;
+}
+
+.header{
+  background-color: rgba(255, 255, 255, 0.7);
   background-position: center;
   top: 0px;
   left: 0px;
-  background-attachment: fixed;
+  
 }
 
 img{
@@ -35,10 +52,10 @@ img{
 
 ul {
   margin: 10px auto;
-  text-align: right;
+  text-align: center;
 }
 
-li {
+.listhead {
   color: #14213D;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
@@ -75,6 +92,32 @@ p {
   font-weight: 200;
 }
 
+#cover {
+  background: url("https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/19961120_1215728815222021_209000205097123740_n.jpg?oh=d0fd1e4ee30346822bb7a6916d36a246&oe=59C3A592") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 900px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+
+.listbody {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+li{
+	text-decoration: none;
+	text-align: center;
+	position: left;
+	background-color: rgba(20, 56, 57, 0.8);
+}
 
 body{
   padding: 0;
@@ -85,16 +128,6 @@ body{
   background-attachment: fixed;
 }
 
-
-.navigation {
-  background-color: #FFF;
-  position: fixed;
-  left: 0;
-  top: 0;
-  float: right;
-  width: 100%;
-
-}
 
 footer{
   background-color: black;
